@@ -10,7 +10,7 @@ int main(int argc, char* argv[]){
 			i++;
 		}
 		fp = fopen(argv[2], "r");
-		if(fp == NULL){
+		if(fp==NULL){
 			fprintf(stderr, "error\n");
 			return 0;
 		}
