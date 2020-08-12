@@ -35,7 +35,6 @@ typedef struct node{
 
 
 file_listNode *INIT_filelist();
-file_listNode *addNext_(file_listNode *node, char *directname, char *filename);
 void DEL_filelist(file_listNode *head);
 
 
